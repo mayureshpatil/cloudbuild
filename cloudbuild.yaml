@@ -1,7 +1,7 @@
 
 steps:
 - name: 'bash'
-  args: ['echo', 'I am running in a private pool!']
+  args: ['echo', 'I am running in a private git checkout pool!']
 options:
   pool:
     name: projects/lpgprj-sbo-n-anthos-gl-01/locations/us-east1/workerPools/private-cloudbuild-test
